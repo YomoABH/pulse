@@ -2,11 +2,14 @@
 html,
 body {
 	height: 100%;
-	font-family: 'MuseoModerno', sans-serif0;
+	font-family: 'MuseoModerno', sans-serif;
 	font-weight: 500;
 	color: #fff;
 }
-
+a {
+	color: #fff;
+	text-decoration: none;
+}
 .wrapper {
 	min-height: 100%;
 	display: flex;

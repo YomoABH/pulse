@@ -2,3 +2,5 @@ node_modules
 gulpfile.js
 package.json
 package-lock.json
+app/css/style.min.css
+.gitignore
