@@ -1,0 +1,21 @@
+// Настройка общей оболочки сайта 
+html,
+body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+.footer {
+}
