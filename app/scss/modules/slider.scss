@@ -1,0 +1,184 @@
+.slick-slider{
+
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{
+
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{
+	
+}
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+}
+/* Слайд */
+.slick-slide{
+	text-align: center;
+	width: 950px;
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{
+
+}
+/* Слайд основной */
+.slick-slide.slick-current{
+
+}
+/* Слайд по центру */
+.slick-slide.slick-center{
+
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{
+
+}
+/* Стрелка */
+.slick-arrow{
+
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{
+
+}
+/* Точки (булиты) */
+.slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slick-dots li{
+
+}
+/* Активная точка */
+.slick-dots li.slick-active{
+
+}
+/* Элемент точки */
+.slick-dots li button{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider {
+	
+	img {
+		max-width: 100%;
+	}
+	.slick-slider{
+		width: 950px;
+		top: 110px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	/* Слайдер запущен */
+	.slick-slider.slick-initialized{
+	
+	}
+	/* Слайдер с точками */
+	.slick-slider.slick-dotted{
+		
+	}
+	/* Ограничивающая оболочка */
+	.slick-list {
+		overflow: hidden;
+	}
+	/* Лента слайдов */
+	.slick-track{
+		display: flex;
+		align-items: center;
+	}
+	/* Слайд */
+	.slick-slide{
+	width: 750px;
+	img {
+		margin: 0 auto;
+	}
+	}
+	/* Слайд активный (показывается) */
+	.slick-slide.slick-active{
+	
+	}
+	/* Слайд основной */
+	.slick-slide.slick-current{
+	
+	}
+	/* Слайд по центру */
+	.slick-slide.slick-center{
+	
+	}
+	/* Клонированный слайд */
+	.slick-slide.slick-cloned{
+	
+	}
+	/* Стрелка */
+	.slick-arrow{
+		z-index: 10000;
+	font-size: 0;
+	width: 30px;
+	height: 50px;
+	border: none;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	}
+	/* Стрелка влево */
+	.slick-arrow.slick-prev{
+		background: url(../../img/icon/chevron_left_solid.png);
+		left: 0;
+	}
+	/* Стрелка вправо */
+	.slick-arrow.slick-next{
+		background: url(../../img/icon/chevron_right_solid.png);
+		right: 0;
+	}
+	/* Стрелка не активная */
+	.slick-arrow.slick-disabled{
+	
+	}
+	/* Точки (булиты) */
+	.slick-dots{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.slick-dots li{
+	
+	}
+	/* Активная точка */
+	.slick-dots li.slick-active{
+	
+	}
+	/* Элемент точки */
+	.slick-dots li button{
+	
+	}
+	
+}
