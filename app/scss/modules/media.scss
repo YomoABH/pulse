@@ -1,5 +1,42 @@
 @media (max-width: 1200px) {
+.promo-content {
+	&__title {
+		font-size: 37px;
+		line-height: 37px;
+	}
+	&__subtitle {
+		font-size: 22px;
+		margin-bottom: 45px;
+	}
+	&__items {
+		margin-bottom: 50px;
+	}
+	}
 
+	.advantages {
+	
+		&__item {
+		width: 240px;
+		}
+	}
+
+	.catalog-item {
+		width: 350px;
+	}
+
+	.reviews{
+		&__title {
+			margin-bottom: 45px;
+		}
+		&-items {
+			&__img {
+				margin-right: 40px;
+			}
+			&__text {
+				font-size: 15px;
+			}
+		}
+	}
 }
 @media (max-width: 991px) {
 
