@@ -359,6 +359,9 @@ min-height: 50px;
 				font-size: 11px;
 			}
 		}
+		&__tab {
+			width: 100px;
+		}
 	}.catalog-item {
 		width: 320px;
 	}
@@ -376,4 +379,9 @@ min-height: 50px;
 		}
 	}
 
+	.footer {
+		&__info {
+			width: 375px;
+		}
+	}
 }
