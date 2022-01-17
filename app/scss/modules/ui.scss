@@ -85,6 +85,15 @@
 	}
 
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
+	.title-h2 {
+
+		&_left {
+			font-size: 27px;
+			line-height: 45px;
+			text-align: center;
+		}
+	
+	}
 
 }
