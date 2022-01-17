@@ -97,3 +97,16 @@
 	}
 
 }
+
+@media (max-width: 575px) {
+	.title-h2 {
+		font-size: 22px;
+		line-height: 30px;
+		&_left {
+			font-size: 20px;
+			line-height: 26px;
+		}
+	
+	}
+
+}
