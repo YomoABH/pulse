@@ -65,18 +65,24 @@
 
 @media (max-width: 1200px) {
 	.title-h2 {
-		
+
 		&_left {
 			font-size: 34px;
 			line-height: 52px;
-			text-transform: uppercase;
-			color: #FFFFFF;
 		}
 	
 	}
 	
 }
 @media (max-width: 991px) {
+	.title-h2 {
+
+		&_left {
+			font-size: 26px;
+			line-height: 45px;
+		}
+	
+	}
 
 }
 @media (max-width: 991px) {
