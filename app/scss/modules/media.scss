@@ -1,11 +1,191 @@
 @media (max-width: 1200px) {
+.promo-content {
+	&__title {
+		font-size: 37px;
+		line-height: 37px;
+	}
+	&__subtitle {
+		font-size: 22px;
+		margin-bottom: 45px;
+	}
+	&__items {
+		margin-bottom: 50px;
+	}
+	}
 
+	.advantages {
+	
+		&__item {
+		width: 240px;
+		}
+	}
+
+	.catalog-item {
+		width: 255px;
+	}
+
+	.reviews{
+		&__title {
+			margin-bottom: 45px;
+		}
+		&-items {
+			&__img {
+				margin-right: 40px;
+			}
+			&__text {
+				font-size: 15px;
+			}
+		}
+	}
 }
 @media (max-width: 991px) {
+	.header {
+		&__representatives {
+			display: none;
+		}
+	}
+
+	.promo{
+		padding: 70px 0px 0px 0px;
+		
+	}
+
+	.advantages {
+	
+		&__item {
+		width: 275px;
+		margin: 5px auto;
+		}
+	}
+
+	.consultation {
+		&__description {
+			font-size: 18px;
+			line-height: 38px;
+			margin-bottom: 30px;
+		}
+	}
+
+	.slider{
+		.slick-slider{
+			width: 620px;
+		}
+		.slick-slide{
+			width: 450px;
+			}
+	}
+
+	.catalog-item {
+		width: 285px;
+	}
+	.reviews{
+		&-items {
+			&__img {
+				margin-bottom: 40px;
+				margin-right: 0;
+			}
+			&__item{
+				flex-direction: column;
+				align-items: center;
+			}
+			&__content {
+				text-align: center;
+			}
+			&__text {
+				font-size: 14px;
+			}
+		}
+	}
 
 }
 @media (max-width: 767px) {
+	.promo {
+		padding: 55px 0px 0px 0px;
+		
+	}
+	.promo-content {
 
+		&__title{
+			font-size: 35px;
+			line-height: 35px;
+		}
+		&__subtitle {
+			font-size: 20px;
+			line-height: 30px;
+		}
+		&__subbtn {
+			font-size: 14px;
+		}
+	}
+
+	.advantages {
+		padding: 50px 0px 50px 0px;
+		&__item {
+			width: 320px;
+			margin: 0px auto;
+			margin-bottom: 25px;
+			}
+	
+	}
+
+	.consultation {
+		padding: 50px 0px 0px 0px;
+		&__description {
+			font-size: 17px;
+			line-height: 25px;
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		.sending-form {
+			margin: 0 auto;
+		}
+	}
+
+
+	.slider{
+		.slick-slider{
+			width: 520px;
+			top: 60px;
+
+		}
+		.slick-slide{
+			width: 450px;
+			}
+	}
+
+	.catalog {
+		padding: 130px 0px 0px 0px;
+		
+	}
+
+	.catalog-item {
+		width: 350px;
+	}
+
+	.reviews{
+		padding: 70px 0px 0px 0px;
+		
+		&-items {
+			&__img {
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+	.footer {
+		&__info {
+			width: 380px;
+			height: 250px;
+		}
+		&__adder {
+			margin-bottom: 20px;
+			font-size: 18px;
+		}
+		&__phone {
+			margin-bottom: 20px;
+			font-size: 18px;
+		}
+	}
 /* menu {
 min-height: 50px;
 &__icon {
@@ -87,5 +267,121 @@ min-height: 50px;
 }
 
 @media (max-width: 575px) {
+	.inner {
+		min-height: 500px;
+	}
+	.contact {
+		&__phone {
+			font-size: 11px;
+			line-height: 11px;
+		}
+		&__btn {
+			width: 115px;
+			height: 22px;
+			font-size: 11px;
+			line-height: 22px;
+		}
+	}
+	.promo {
+		padding: 40px 0px 0px 0px;
+	}
+	.promo-content {
 
+		&__title{
+			font-size: 25px;
+			line-height: 25px;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		&__subtitle {
+			font-size: 18px;
+			line-height: 25px;
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		&__items {
+			margin-bottom: 35px;
+		}
+	}
+	.item-promo {
+		margin-right: 27px;
+		&__text {
+			font-size: 13px;
+		}
+	}
+
+	.advantages {
+		padding: 35px 0px 35px 0px;
+		&__title {
+			margin-bottom: 20px;
+		}
+		&__item {
+			width: 240px;
+			}
+		&-item {
+			&__icon {
+				margin-bottom: 10px;
+			}
+			&__title {
+				margin-bottom: 10px;
+			}
+
+		}
+	}
+
+
+	.consultation {
+		padding: 35px 0px 0px 0px;
+		min-height: 530px;
+		&__description {
+			font-size: 15px;
+			line-height: 20px;
+			margin-bottom: 20px;
+		}
+	}
+	.slider{
+		.slick-slider{
+			width: 320px;
+			top: 35px;
+
+		}
+		.slick-slide{
+			width: 450px;
+			}
+	}
+
+
+	.catalog {
+		padding: 105px 0px 0px 0px;
+		&__tabs {
+			margin: 10px 0px 0px 0px;
+			div {
+				font-size: 11px;
+			}
+		}
+		&__tab {
+			width: 100px;
+		}
+	}.catalog-item {
+		width: 280px;
+	}
+
+	.reviews{
+		padding: 35px 0px 0px 0px;
+		
+		&-items {
+			&__text {
+				font-size: 12px;
+				p {
+					margin-bottom: 2px;
+				}
+			}
+		}
+	}
+
+	.footer {
+		&__info {
+			width: 375px;
+		}
+	}
 }

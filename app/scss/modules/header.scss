@@ -2,13 +2,13 @@
 	padding: 21px 0px 0px 0px;
 	
 	min-height: 650px;
-	background: url(../../img/bg/main-bg.jpg) center center/cover no-repeat;
+	background: url(../img/bg/main-bg.jpg) center center/cover no-repeat;
 }
 .header {
 
 		&__logo {
 			img {
-				min-width: 100%;
+				max-width: 100%;
 			}
 		}
 
