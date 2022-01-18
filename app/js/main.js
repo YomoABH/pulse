@@ -26,4 +26,29 @@ $(document).ready(function () {
 		})
 	})
 
+	// modal
+	$('[data-modal=consultation]').on('click', function () {
+		$('.overline,  #consultation').fadeIn(400);
+	});
+
+
+	$('.modal__close').on('click', function () {
+		$('.overline, #consultation, #order, #thinks').fadeOut(300);
+	});
+
+	$('.btn_mini').each(function (i) {
+		$(this).on('click', function () {
+			$('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
+			$('.overline,  #order').fadeIn(400);
+		})
+
+	});
+
+	// $('.btn_mini').each(function (i) {
+	// 	$(this).on('click', function () {
+	// 		$('#order, .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
+	// 		$('.overline,  #order').fadeIn(400);
+	// 	})
+	// });
+
 });
